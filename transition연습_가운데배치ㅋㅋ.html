@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+	<style type="text/css">
+		div{
+			 transition: all 1s;
+			/*얘를 가운데 하고 싶은데 ㅇㅋ*/
+           
+
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate( -50% , -50% );
+            
+		}
+
+		/*a와 i를 감싼 div태그에 hover했을때, a i가 바뀌게 하려면 transition을 어디에 줘야,.?*/
+		a{
+			color: pink;
+			font-size: 50px;
+			text-decoration:  none;		
+		}
+		
+		i{
+			color:white;
+			padding-left:20px;}
+
+		div:hover a{
+			padding-right: 20px;
+		}
+
+		div:hover i{			
+			color: hotpink;
+		}
+
+	</style>
+		
+<body>
+<div>
+	<a href="#">시작<i class="fas fa-angle-double-right"></i></a>
+</div>
+</body>
+</html>
